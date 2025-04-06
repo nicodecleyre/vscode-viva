@@ -644,7 +644,7 @@
         "SharePoint"
       ],
       "createDate": "2023-12-25",
-      "updateDate": "2024-10-11",
+      "updateDate": "2025-03-06",
       "version": "1.19.0",
       "componentType": "extension",
       "extensionType": "ApplicationCustomizer",
@@ -667,7 +667,7 @@
         "SharePoint"
       ],
       "createDate": "2020-06-18",
-      "updateDate": "2024-10-06",
+      "updateDate": "2024-12-24",
       "version": "1.20.0",
       "componentType": "extension",
       "extensionType": "ApplicationCustomizer",
@@ -803,14 +803,18 @@
         {
           "name": "Michał Romiszewski",
           "pictureUrl": "https://github.com/mromiszewski.png"
+        },
+        {
+          "name": "Nishkalank Bezawada",
+          "pictureUrl": "https://github.com/NishkalankBezawada.png"
         }
       ],
       "tags": [
         "SharePoint"
       ],
       "createDate": "2021-01-20",
-      "updateDate": "2021-07-22",
-      "version": "1.12.1",
+      "updateDate": "2024-12-09",
+      "version": "1.20.0",
       "componentType": "extension",
       "extensionType": "ApplicationCustomizer",
       "sampleGalerry": "sp-dev-fx-extensions",
@@ -1377,6 +1381,29 @@
       "createDate": "2021-01-17",
       "updateDate": "2021-01-17",
       "version": "1.11.0",
+      "componentType": "extension",
+      "extensionType": "ListViewCommandSet",
+      "sampleGalerry": "sp-dev-fx-extensions",
+      "sampleType": "samples"
+    },
+    {
+      "name": "pnp-sp-dev-spfx-extensions-YOUR-SOLUTION-NAME-GOES-HERE",
+      "title": "AI Document Assistant",
+      "url": "https://github.com/pnp/sp-dev-fx-extensions/tree/main/samples/YOUR-SOLUTION-NAME-GOES-HERE",
+      "description": "The AI Document Assistant is a SharePoint Framework (SPFx) Command Set extension designed to enhance document interactions in SharePoint Online. This intelligent assistant leverages the OpenAI Assistant API to allow users to ask questions about selected documents directly within a chat interface.",
+      "image": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/react-command-ai-document-assistant/assets/architecture.png",
+      "authors": [
+        {
+          "name": "Ejaz Hussain",
+          "pictureUrl": "https://github.com/ejazhussain.png"
+        }
+      ],
+      "tags": [
+        "SharePoint"
+      ],
+      "createDate": "2023-12-25",
+      "updateDate": "2023-12-31",
+      "version": "1.20.0",
       "componentType": "extension",
       "extensionType": "ListViewCommandSet",
       "sampleGalerry": "sp-dev-fx-extensions",
@@ -1983,14 +2010,18 @@
         {
           "name": "Dan Toft (Code Reviews)",
           "pictureUrl": "https://github.com/Tanddant.png"
+        },
+        {
+          "name": "Nicolas Kheirallah",
+          "pictureUrl": "https://github.com/NicolasKheirallah.png"
         }
       ],
       "tags": [
         "SharePoint"
       ],
       "createDate": "2023-12-22",
-      "updateDate": "2024-04-06",
-      "version": "1.17.4",
+      "updateDate": "2025-03-12",
+      "version": "1.20.0",
       "componentType": "extension",
       "extensionType": "ListViewCommandSet",
       "sampleGalerry": "sp-dev-fx-extensions",
@@ -2465,11 +2496,11 @@
       "sampleType": "samples"
     },
     {
-      "name": "pnp-sp-dev-spfx-extensions-react-utility-extensions",
+      "name": "pnp-sp-dev-spfx-extensions-react-YOUR-SOLUTION-NAME-GOES-HERE",
       "title": "Copy Path and Copy Name List view command set extensions",
-      "url": "https://github.com/pnp/sp-dev-fx-extensions/tree/main/samples/react-utility-extensions",
-      "description": "List view command set extensions with below functionalities: Copy Path and Copy Name.",
-      "image": "https://github.com/pnp/sp-dev-fx-extensions/raw/main/samples/react-utility-extensions/assets/CopyPathCopyNameExtenstions.png",
+      "url": "https://github.com/pnp/sp-dev-fx-extensions/tree/main/samples/YOUR-SOLUTION-NAME-GOES-HERE",
+      "description": "List view command set extensions with below functionalities",
+      "image": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/react-utility-extensions/assets/CopyPathCopyNameExtenstions.png",
       "authors": [
         {
           "name": "Harminder Singh",
@@ -2479,8 +2510,8 @@
       "tags": [
         "SharePoint"
       ],
-      "createDate": "2023-10-04",
-      "updateDate": "2024-08-28",
+      "createDate": "2023-10-22",
+      "updateDate": "2025-02-27",
       "version": "1.19.0",
       "componentType": "extension",
       "extensionType": "ListViewCommandSet",
@@ -2653,6 +2684,56 @@
       "sampleType": "samples"
     },
     {
+      "name": "pnp-sp-dev-spfx-web-parts-angularelements-helloworld",
+      "title": "Angular Elements in SPFx web parts",
+      "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/angularelements-helloworld",
+      "description": "Set of sample web parts illustrating how to use Angular Elements in the SharePoint Framework.",
+      "image": "https://github.com/pnp/media/raw/master/parker/pnp/300w/parker.png",
+      "authors": [
+        {
+          "name": "Waldek Mastykarz",
+          "pictureUrl": "https://github.com/waldekmastykarz.png"
+        },
+        {
+          "name": "Sébastien Levert",
+          "pictureUrl": "https://github.com/sebastienlevert.png"
+        }
+      ],
+      "tags": [
+        "SharePoint"
+      ],
+      "createDate": "2018-06-01",
+      "updateDate": "2018-06-01",
+      "version": "1.4.0",
+      "componentType": "webpart",
+      "extensionType": null,
+      "sampleGalerry": "sp-dev-fx-webparts",
+      "sampleType": "samples"
+    },
+    {
+      "name": "pnp-sp-dev-spfx-web-parts-angularelements-html-templatefile",
+      "title": "Angular Elements with HTML Template File in SharePoint Framework",
+      "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/angularelements-html-templatefile",
+      "description": "A sample web part illustrating how to use Angular Elements in the SharePoint Framework with the help of separate template HTML File.",
+      "image": "https://github.com/pnp/media/raw/master/parker/pnp/300w/parker.png",
+      "authors": [
+        {
+          "name": "Jayakumar Balasubramaniam",
+          "pictureUrl": "https://github.com/JayakumarB.png"
+        }
+      ],
+      "tags": [
+        "SharePoint"
+      ],
+      "createDate": "2019-01-08",
+      "updateDate": "2019-01-08",
+      "version": "1.4.0",
+      "componentType": "webpart",
+      "extensionType": null,
+      "sampleGalerry": "sp-dev-fx-webparts",
+      "sampleType": "samples"
+    },
+    {
       "name": "pnp-sp-dev-spfx-web-parts-bootstrap-slider",
       "title": "Bootstrap Slider Web Part Built with jQuery v1.x and Boostrap v3.x",
       "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/bootstrap-slider",
@@ -2749,6 +2830,29 @@
       "version": "1.19.0",
       "componentType": "extension",
       "extensionType": "ApplicationCustomizer",
+      "sampleGalerry": "sp-dev-fx-webparts",
+      "sampleType": "samples"
+    },
+    {
+      "name": "pnp-sp-dev-spfx-web-parts-js-demo-time",
+      "title": "Demo Time",
+      "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/js-demo-time",
+      "description": "This web part is more a POC created for the SharePoint Hackathon 2025. This web part allows you to quickly add presentation mode to any page on your site. It has no UI and is not visible after publish, so not edit mode of the page. After adding it to a page and publishing it will add an additional Play in the page header.",
+      "image": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/js-demo-time/assets/demo-time-gif1.gif",
+      "authors": [
+        {
+          "name": "Adam Wójcik",
+          "pictureUrl": "https://github.com/Adam-it.png"
+        }
+      ],
+      "tags": [
+        "SharePoint"
+      ],
+      "createDate": "2025-03-16",
+      "updateDate": "2025-03-16",
+      "version": "1.20.0",
+      "componentType": "webpart",
+      "extensionType": null,
       "sampleGalerry": "sp-dev-fx-webparts",
       "sampleType": "samples"
     },
@@ -2893,6 +2997,60 @@
       "createDate": "2019-04-18",
       "updateDate": "2019-04-18",
       "version": "1.8.0",
+      "componentType": "webpart",
+      "extensionType": null,
+      "sampleGalerry": "sp-dev-fx-webparts",
+      "sampleType": "samples"
+    },
+    {
+      "name": "pnp-sp-dev-spfx-web-parts-js-mermaid-diagram",
+      "title": "Mermaid Diagram Web Part for SharePoint Online",
+      "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/js-mermaid-diagram",
+      "description": "I created this web part to add Mermaid diagram support in SharePoint Online as part of my tutorial series. While working on it, I found this discussion thread: Displaying Mermaid Diagrams in SharePoint Online Markdown Web Parts, which highlights the need for a proper solution.",
+      "image": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/js-mermaid-diagram/assets/js-mermaid.png",
+      "authors": [
+        {
+          "name": "Clavin Fernandes",
+          "pictureUrl": "https://github.com/cfernandes-muhimbi.png"
+        }
+      ],
+      "tags": [
+        "SharePoint"
+      ],
+      "createDate": "2025-03-16",
+      "updateDate": "2025-03-16",
+      "version": "1.20.0",
+      "componentType": "webpart",
+      "extensionType": null,
+      "sampleGalerry": "sp-dev-fx-webparts",
+      "sampleType": "samples"
+    },
+    {
+      "name": "pnp-sp-dev-spfx-web-parts-js-modern-calendar",
+      "title": "Modern Calendar Web Part",
+      "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/js-modern-calendar",
+      "description": "This is a modern web part built on the GA version of the SharePoint Framework demonstrating how to build a custom web part with a calendar capabilities in it.",
+      "image": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/js-modern-calendar/assets/14b88f34-0121-11e7-8c91-56ecff9343e1.png",
+      "authors": [
+        {
+          "name": "Jeremy Coleman",
+          "pictureUrl": "https://github.com/jcoleman-pcprofessional.png"
+        },
+        {
+          "name": "Nanddeep Nachan",
+          "pictureUrl": "https://github.com/nanddeepn.png"
+        },
+        {
+          "name": "Peter Paul Kirschner",
+          "pictureUrl": "https://github.com/petkir.png"
+        }
+      ],
+      "tags": [
+        "SharePoint"
+      ],
+      "createDate": "2020-06-05",
+      "updateDate": "2024-10-05",
+      "version": "1.20.0",
       "componentType": "webpart",
       "extensionType": null,
       "sampleGalerry": "sp-dev-fx-webparts",
@@ -4053,8 +4211,8 @@
         "SharePoint"
       ],
       "createDate": "2020-07-16",
-      "updateDate": "2022-10-22",
-      "version": "1.15.0",
+      "updateDate": "2025-02-21",
+      "version": "1.20.0",
       "componentType": "webpart",
       "extensionType": null,
       "sampleGalerry": "sp-dev-fx-webparts",
@@ -4062,21 +4220,25 @@
     },
     {
       "name": "pnp-sp-dev-spfx-web-parts-react-caml2table",
-      "title": "CAML to Table Web Part",
+      "title": "CAML to Table",
       "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-caml2table",
-      "description": "Let's the user test CAML queries at ease.",
+      "description": "A powerful web part that allows users to test and build CAML queries visually with a rich, intuitive interface. This enhanced version includes a visual query builder, query validation, saved queries, and more.",
       "image": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/react-caml2table/assets/Demo.gif",
       "authors": [
         {
           "name": "Dan Toft",
           "pictureUrl": "https://github.com/Tanddant.png"
+        },
+        {
+          "name": "Nicolas Kheirallah",
+          "pictureUrl": "https://github.com/NicolasKheirallah.png"
         }
       ],
       "tags": [
         "SharePoint"
       ],
       "createDate": "2022-11-26",
-      "updateDate": "2022-11-26",
+      "updateDate": "2025-03-11",
       "version": "1.15.2",
       "componentType": "webpart",
       "extensionType": null,
@@ -4209,6 +4371,29 @@
       "createDate": "2023-02-19",
       "updateDate": "2023-03-02",
       "version": "1.16.1",
+      "componentType": "webpart",
+      "extensionType": null,
+      "sampleGalerry": "sp-dev-fx-webparts",
+      "sampleType": "samples"
+    },
+    {
+      "name": "pnp-sp-dev-spfx-web-parts-react-check-flows",
+      "title": "Check Flows Web Part",
+      "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-check-flows",
+      "description": "This web part lists all the automated Flows associated with a SharePoint List/ Library. Basic flow information like Flow Name, Flow Trigger, Flow shared Type and Flow URL are displayed.",
+      "image": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/react-check-flows/assets/CheckFlows.gif",
+      "authors": [
+        {
+          "name": "Aakash Bhardwaj",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/33526902?s=460&u=e780f4ef1da922c84f2c5c66c59cecbff2300581&v=4"
+        }
+      ],
+      "tags": [
+        "SharePoint"
+      ],
+      "createDate": "2019-09-17",
+      "updateDate": "2019-09-17",
+      "version": "1.10.0",
       "componentType": "webpart",
       "extensionType": null,
       "sampleGalerry": "sp-dev-fx-webparts",
@@ -4718,6 +4903,29 @@
       "sampleType": "samples"
     },
     {
+      "name": "pnp-sp-dev-spfx-web-parts-react-daterangepicker",
+      "title": "Date range picker in SPFx Web Part",
+      "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-daterangepicker",
+      "description": "This web part used the date range picker in the SharePoint Framework (SPFx) web part",
+      "image": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/react-daterangepicker/assets/daterange1.png",
+      "authors": [
+        {
+          "name": "Ravichandran Krishnasamy",
+          "pictureUrl": "https://github.com/ravichandran-blog.png"
+        }
+      ],
+      "tags": [
+        "SharePoint"
+      ],
+      "createDate": "2020-07-04",
+      "updateDate": "2024-10-07",
+      "version": "1.20.0",
+      "componentType": "webpart",
+      "extensionType": null,
+      "sampleGalerry": "sp-dev-fx-webparts",
+      "sampleType": "samples"
+    },
+    {
       "name": "pnp-sp-dev-spfx-web-parts-react-dev-radar",
       "title": "Dev-Radar for SharePoint Online",
       "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-dev-radar",
@@ -4826,6 +5034,29 @@
       "sampleType": "samples"
     },
     {
+      "name": "pnp-sp-dev-spfx-web-parts-react-document-ai-chat",
+      "title": "Document AI Chat using Kernel Memory",
+      "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-document-ai-chat",
+      "description": "This project guides you through building an intelligent document chatbot using Kernel Memory and Azure services. It covers the architecture and implementation details, including using an Azure Function for backend processing, a SharePoint Framework (SPFx) web part for the user interface, and leveraging Azure AI Search and Azure OpenAI for advanced search and response generation. The project also provides step-by-step instructions and references to relevant documentation.",
+      "image": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/react-document-ai-chat/assets/kernel-memory-architecture.png",
+      "authors": [
+        {
+          "name": "Ejaz Hussain",
+          "pictureUrl": "https://github.com/ejazhussain.png"
+        }
+      ],
+      "tags": [
+        "SharePoint"
+      ],
+      "createDate": "2025-03-10",
+      "updateDate": "2025-03-10",
+      "version": "1.20.0",
+      "componentType": "webpart",
+      "extensionType": null,
+      "sampleGalerry": "sp-dev-fx-webparts",
+      "sampleType": "samples"
+    },
+    {
       "name": "pnp-sp-dev-spfx-web-parts-react-document-links-accordion",
       "title": "Documents Links Accordion Web Part",
       "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-document-links-accordion",
@@ -4916,6 +5147,33 @@
       "createDate": "2020-07-12",
       "updateDate": "2020-07-12",
       "version": "1.10.0",
+      "componentType": "webpart",
+      "extensionType": null,
+      "sampleGalerry": "sp-dev-fx-webparts",
+      "sampleType": "samples"
+    },
+    {
+      "name": "pnp-sp-dev-spfx-web-parts-react-edit-applicationcustomizer",
+      "title": "Edit Application Customizers Web Part",
+      "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-edit-applicationcustomizer",
+      "description": "This web part will allow users to view/update application customizers properties across any web where the current user has access to.",
+      "image": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/react-edit-applicationcustomizer/assets/react-all-applicationcustomizers.gif",
+      "authors": [
+        {
+          "name": "Kunj Sangani",
+          "pictureUrl": "https://github.com/kunj-sangani.png"
+        },
+        {
+          "name": "Siddharth Vaghasia",
+          "pictureUrl": "https://github.com/siddharth-vaghasia.png"
+        }
+      ],
+      "tags": [
+        "SharePoint"
+      ],
+      "createDate": "2020-11-07",
+      "updateDate": "2020-11-07",
+      "version": "1.11.0",
       "componentType": "webpart",
       "extensionType": null,
       "sampleGalerry": "sp-dev-fx-webparts",
@@ -5330,6 +5588,29 @@
       "sampleType": "samples"
     },
     {
+      "name": "pnp-sp-dev-spfx-web-parts-react-file-upload",
+      "title": "File Upload Web Part",
+      "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-file-upload",
+      "description": "The file upload web part allowing users to upload multiple files to a document library or as item attachments.",
+      "image": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/react-file-upload/assets/SPFileUploadPreview.gif",
+      "authors": [
+        {
+          "name": "Ramin Ahmadi",
+          "pictureUrl": "https://github.com/AhmadiRamin.png"
+        }
+      ],
+      "tags": [
+        "SharePoint"
+      ],
+      "createDate": "2018-02-14",
+      "updateDate": "2018-02-14",
+      "version": "1.4.0",
+      "componentType": "webpart",
+      "extensionType": null,
+      "sampleGalerry": "sp-dev-fx-webparts",
+      "sampleType": "samples"
+    },
+    {
       "name": "pnp-sp-dev-spfx-web-parts-react-find-parker",
       "title": "Find Parker Web Part",
       "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-find-parker",
@@ -5563,6 +5844,29 @@
       "createDate": "2019-06-14",
       "updateDate": "2023-10-10",
       "version": "1.18.0",
+      "componentType": "webpart",
+      "extensionType": null,
+      "sampleGalerry": "sp-dev-fx-webparts",
+      "sampleType": "samples"
+    },
+    {
+      "name": "pnp-sp-dev-spfx-web-parts-react-functional-servicescope-hooks",
+      "title": "Consuming SPFX Service Scopes using React Hooks",
+      "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-functional-servicescope-hooks",
+      "description": "This web part is designed to help developers understand how to use the Context API and useContext() React Hook to share global data between a hierarchy of nested React components.",
+      "image": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/react-functional-servicescope-hooks/webpart.png",
+      "authors": [
+        {
+          "name": "Garry Trinder",
+          "pictureUrl": "https://github.com/garrytrinder.png"
+        }
+      ],
+      "tags": [
+        "SharePoint"
+      ],
+      "createDate": "2020-03-25",
+      "updateDate": "2020-03-25",
+      "version": "1.10.0",
       "componentType": "webpart",
       "extensionType": null,
       "sampleGalerry": "sp-dev-fx-webparts",
@@ -6081,6 +6385,29 @@
       "createDate": "2023-05-13",
       "updateDate": "2023-07-11",
       "version": "1.18.2",
+      "componentType": "webpart",
+      "extensionType": null,
+      "sampleGalerry": "sp-dev-fx-webparts",
+      "sampleType": "samples"
+    },
+    {
+      "name": "pnp-sp-dev-spfx-web-parts-react-group-members-webpart",
+      "title": "Group Members Web Part – Microsoft 365 Group User Management",
+      "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-group-members-webpart",
+      "description": "The Group Members Web Part provides a comprehensive solution for displaying and managing Microsoft 365 group memberships within SharePoint. This web part leverages Microsoft Graph to fetch user data and presents it in an intuitive, responsive interface that supports filtering, search, and quick actions.",
+      "image": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/react-group-members-webpart/assets/GroupMembersUI.png",
+      "authors": [
+        {
+          "name": "Nicolas Kheirallah",
+          "pictureUrl": "https://github.com/NicolasKheirallah.png"
+        }
+      ],
+      "tags": [
+        "SharePoint"
+      ],
+      "createDate": "2025-02-28",
+      "updateDate": "2025-02-28",
+      "version": "1.20.0",
       "componentType": "webpart",
       "extensionType": null,
       "sampleGalerry": "sp-dev-fx-webparts",
@@ -6702,6 +7029,29 @@
       "sampleType": "samples"
     },
     {
+      "name": "pnp-sp-dev-spfx-web-parts-react-m365-planner-timeline",
+      "title": "M365 Planner Timeline Web Part",
+      "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-m365-planner-timeline",
+      "description": "The purpose of this web part sample is to render M365 Group Plan tasks in a timeline ordered by the task due date with tags for years and months in a vertical stack. There are filter options to filter out completed tasks and tender tasks by a plan bucket. A task's detail can be viewed by clicking the (i) icon below the \"Due Date\" popping up a callout dialog with task details. It Should be noted that a M365 Group Planner can have 0 to 200 plans assigned to M365 Group. The web part needs to be configured in the web part's property pane you must select the plan to be rendered, along with options for the plan bucket and completed task filter. These setting will be used when the web part renders on the page. The configuration of multiple web parts on hte page for different plans and buckets is supported.",
+      "image": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/react-m365-planner-timeline/assets/webParts.png",
+      "authors": [
+        {
+          "name": "Bill Brockbank",
+          "pictureUrl": "https://github.com/billbrockbank.png"
+        }
+      ],
+      "tags": [
+        "SharePoint"
+      ],
+      "createDate": "2024-12-25",
+      "updateDate": "2024-12-31",
+      "version": "1.20.0",
+      "componentType": "webpart",
+      "extensionType": null,
+      "sampleGalerry": "sp-dev-fx-webparts",
+      "sampleType": "samples"
+    },
+    {
       "name": "pnp-sp-dev-spfx-web-parts-react-manage-hublevel-subscriptions",
       "title": "Subscription Manager Web Part",
       "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-manage-hublevel-subscriptions",
@@ -7033,6 +7383,29 @@
       ],
       "createDate": "2023-01-31",
       "updateDate": "2025-01-19",
+      "version": "1.20.0",
+      "componentType": "webpart",
+      "extensionType": null,
+      "sampleGalerry": "sp-dev-fx-webparts",
+      "sampleType": "samples"
+    },
+    {
+      "name": "pnp-sp-dev-spfx-web-parts-react-modern-calendar",
+      "title": "New Modern Calendar Web Part",
+      "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-modern-calendar",
+      "description": "New Modern Calendar Web Part for SharePoint Framework",
+      "image": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/react-modern-calendar/assets/moderCalendar1.png",
+      "authors": [
+        {
+          "name": "João Mendes",
+          "pictureUrl": "https://github.com/joaojmendes.png"
+        }
+      ],
+      "tags": [
+        "SharePoint"
+      ],
+      "createDate": "2025-03-08",
+      "updateDate": "2025-03-08",
       "version": "1.20.0",
       "componentType": "webpart",
       "extensionType": null,
@@ -7373,6 +7746,37 @@
       "updateDate": "2024-10-11",
       "version": "1.20.0",
       "componentType": "adaptiveCardExtension",
+      "extensionType": null,
+      "sampleGalerry": "sp-dev-fx-webparts",
+      "sampleType": "samples"
+    },
+    {
+      "name": "pnp-sp-dev-spfx-web-parts-react-my-personal-apps",
+      "title": "My Personal Apps Web Part",
+      "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-my-personal-apps",
+      "description": "The Web Part My Personal Apps allows the user to define links to Applications or Sites for quick access.",
+      "image": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/react-my-personal-apps/assets/Image1.png",
+      "authors": [
+        {
+          "name": "João Mendes",
+          "pictureUrl": "https://github.com/joaojmendes.png"
+        },
+        {
+          "name": "Zach Roberts",
+          "pictureUrl": "https://github.com/zachroberts8668.png"
+        },
+        {
+          "name": "Azores",
+          "pictureUrl": "https://github.com/gretchunkim.png"
+        }
+      ],
+      "tags": [
+        "SharePoint"
+      ],
+      "createDate": "2020-04-28",
+      "updateDate": "2025-01-13",
+      "version": "1.10.0",
+      "componentType": "webpart",
       "extensionType": null,
       "sampleGalerry": "sp-dev-fx-webparts",
       "sampleType": "samples"
@@ -7762,7 +8166,7 @@
         "SharePoint"
       ],
       "createDate": "2019-09-05",
-      "updateDate": "2024-10-06",
+      "updateDate": "2025-03-15",
       "version": "1.20.0",
       "componentType": "webpart",
       "extensionType": null,
@@ -8770,6 +9174,29 @@
       "sampleType": "samples"
     },
     {
+      "name": "pnp-sp-dev-spfx-web-parts-react-richtext-editor",
+      "title": "Rich Text Editor - Fluent UI",
+      "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-richtext-editor",
+      "description": "A robust rich text editor utilizing the latest Fluent React components to seamlessly align with SharePoint Online Modern UI standards. Full control over UI and backend code, making integration with external systems like SharePoint lists a breeze. Inspiration is drawn from the out-of-the-box Text web part.",
+      "image": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/react-richtext-editor/assets/screenshot.png",
+      "authors": [
+        {
+          "name": "Ejaz Hussain",
+          "pictureUrl": "https://github.com/ejazhussain.png"
+        }
+      ],
+      "tags": [
+        "SharePoint"
+      ],
+      "createDate": "2025-02-11",
+      "updateDate": "2025-02-11",
+      "version": "1.20.0",
+      "componentType": "webpart",
+      "extensionType": null,
+      "sampleGalerry": "sp-dev-fx-webparts",
+      "sampleType": "samples"
+    },
+    {
       "name": "pnp-sp-dev-spfx-web-parts-react-roomchat",
       "title": "Room Chat Web Part",
       "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-roomchat",
@@ -8845,6 +9272,29 @@
       "createDate": "2018-12-10",
       "updateDate": "2018-12-10",
       "version": "1.7.0",
+      "componentType": "webpart",
+      "extensionType": null,
+      "sampleGalerry": "sp-dev-fx-webparts",
+      "sampleType": "samples"
+    },
+    {
+      "name": "pnp-sp-dev-spfx-web-parts-react-save-attachments",
+      "title": "Save Attachments Web Part",
+      "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-save-attachments",
+      "description": "This SPFx Outlook Add-In lets users save any email attachments to a OneDrive folder.",
+      "image": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/react-save-attachments/assets/ReactSaveAttachments.gif",
+      "authors": [
+        {
+          "name": "Aakash Bhardwaj",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/33526902?s=460&u=e780f4ef1da922c84f2c5c66c59cecbff2300581&v=4"
+        }
+      ],
+      "tags": [
+        "SharePoint"
+      ],
+      "createDate": "2020-10-04",
+      "updateDate": "2021-10-19",
+      "version": "1.13.0",
       "componentType": "webpart",
       "extensionType": null,
       "sampleGalerry": "sp-dev-fx-webparts",
@@ -9093,6 +9543,52 @@
       "sampleType": "samples"
     },
     {
+      "name": "pnp-sp-dev-spfx-web-parts-react-soccer-highlights",
+      "title": "Soccer Highlights Web Part",
+      "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-soccer-highlights",
+      "description": "This react web part sample displays Soccer Highlights from a public Soccer API.",
+      "image": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/react-soccer-highlights/assets/SoccerHighlightsV1.png",
+      "authors": [
+        {
+          "name": "Jerry Yasir",
+          "pictureUrl": "https://github.com/jerryyasir.png"
+        }
+      ],
+      "tags": [
+        "SharePoint"
+      ],
+      "createDate": "2020-10-30",
+      "updateDate": "2020-10-30",
+      "version": "1.11.0",
+      "componentType": "webpart",
+      "extensionType": null,
+      "sampleGalerry": "sp-dev-fx-webparts",
+      "sampleType": "samples"
+    },
+    {
+      "name": "pnp-sp-dev-spfx-web-parts-react-sp-bookmarks",
+      "title": "Bookmarks Manager",
+      "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-sp-bookmarks",
+      "description": "Allows users to manage and organize bookmarks in a SharePoint list.",
+      "image": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/react-sp-bookmarks/assets/BookmarksManager.gif",
+      "authors": [
+        {
+          "name": "Sudeep Ghatak",
+          "pictureUrl": "https://github.com/sudeepghatak.png"
+        }
+      ],
+      "tags": [
+        "SharePoint"
+      ],
+      "createDate": "2025-01-27",
+      "updateDate": "2025-01-27",
+      "version": "1.20.0",
+      "componentType": "webpart",
+      "extensionType": null,
+      "sampleGalerry": "sp-dev-fx-webparts",
+      "sampleType": "samples"
+    },
+    {
       "name": "pnp-sp-dev-spfx-web-parts-react-sp-pnp-js-property-decorators",
       "title": "Using PnP JS Core custom objects with @select and @expand decorators",
       "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-sp-pnp-js-property-decorators",
@@ -9111,6 +9607,29 @@
       "updateDate": "2017-07-02",
       "version": "1.0.2",
       "componentType": null,
+      "extensionType": null,
+      "sampleGalerry": "sp-dev-fx-webparts",
+      "sampleType": "samples"
+    },
+    {
+      "name": "pnp-sp-dev-spfx-web-parts-react-sp-secret-santa",
+      "title": "Using React Accordion plugin with SPFx",
+      "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-sp-secret-santa",
+      "description": "The Secret Santa is a fun and interactive tool designed to manage a Secret Santa gift exchange directly on your SharePoint site.",
+      "image": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/react-sp-secret-santa/assets/SecretSanta.gif",
+      "authors": [
+        {
+          "name": "Sudeep Ghatak",
+          "pictureUrl": "https://github.com/sudeepghatak.png"
+        }
+      ],
+      "tags": [
+        "SharePoint"
+      ],
+      "createDate": "2024-12-25",
+      "updateDate": "2024-12-31",
+      "version": "1.20.0",
+      "componentType": "webpart",
       "extensionType": null,
       "sampleGalerry": "sp-dev-fx-webparts",
       "sampleType": "samples"
@@ -9298,14 +9817,18 @@
         {
           "name": "Arun Kumar Perumal",
           "pictureUrl": "https://github.com/arunkumarperumal.png"
+        },
+        {
+          "name": "Nicolas Kheirallah",
+          "pictureUrl": "https://github.com/nicolaskheirallah.png"
         }
       ],
       "tags": [
         "SharePoint"
       ],
       "createDate": "2022-03-30",
-      "updateDate": "2022-03-30",
-      "version": "1.13.0",
+      "updateDate": "2025-03-16",
+      "version": "1.20.0",
       "componentType": "webpart",
       "extensionType": null,
       "sampleGalerry": "sp-dev-fx-webparts",
@@ -9328,6 +9851,52 @@
       ],
       "createDate": "2020-10-17",
       "updateDate": "2020-10-17",
+      "version": "1.11.0",
+      "componentType": "webpart",
+      "extensionType": null,
+      "sampleGalerry": "sp-dev-fx-webparts",
+      "sampleType": "samples"
+    },
+    {
+      "name": "pnp-sp-dev-spfx-web-parts-react-tailwindcss3",
+      "title": "Tailwind 3 Web Part",
+      "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-tailwindcss",
+      "description": "This project showcases an integration of Tailwind CSS into an SPFx project.",
+      "image": "https://raw.githubusercontent.com/pnp/sp-dev-fx-webparts/main/samples/react-tailwindcss3/assets/example.png",
+      "authors": [
+        {
+          "name": "Ari Gunawan",
+          "pictureUrl": "https://github.com/AriGunawan.png"
+        }
+      ],
+      "tags": [
+        "SharePoint"
+      ],
+      "createDate": "2023-10-07",
+      "updateDate": "2023-10-07",
+      "version": "1.20.0",
+      "componentType": "webpart",
+      "extensionType": null,
+      "sampleGalerry": "sp-dev-fx-webparts",
+      "sampleType": "samples"
+    },
+    {
+      "name": "pnp-sp-dev-spfx-web-parts-react-target-audience",
+      "title": "Target Audience Web Part",
+      "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-target-audience",
+      "description": "Sample web part which uses a Generic React Component which enables it to have Target Audience functionality like what was available in classic web parts. Targets SharePoint Groups only within the site.",
+      "image": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/react-target-audience/assets/audience.gif",
+      "authors": [
+        {
+          "name": "Rabia Williams",
+          "pictureUrl": "https://github.com/rabwill.png"
+        }
+      ],
+      "tags": [
+        "SharePoint"
+      ],
+      "createDate": "2020-01-28",
+      "updateDate": "2020-01-28",
       "version": "1.11.0",
       "componentType": "webpart",
       "extensionType": null,
@@ -10025,6 +10594,37 @@
       "sampleType": "samples"
     },
     {
+      "name": "pnp-sp-dev-spfx-web-parts-react-tree-orgchart",
+      "title": "Tree Organization Web Part",
+      "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-tree-orgchart",
+      "description": "The Tree Organization Web Part shows the Organization Chart of the or the team, the web part reads information from current user to build the Organization Chart.",
+      "image": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/react-tree-orgchart/assets/Screenshot1.png",
+      "authors": [
+        {
+          "name": "João Mendes",
+          "pictureUrl": "https://github.com/joaojmendes.png"
+        },
+        {
+          "name": "Peter Paul Kirschner",
+          "pictureUrl": "https://github.com/petkir.png"
+        },
+        {
+          "name": "Thomas Daly",
+          "pictureUrl": "https://github.com/tom-daly.png"
+        }
+      ],
+      "tags": [
+        "SharePoint"
+      ],
+      "createDate": "2021-02-28",
+      "updateDate": "2024-10-06",
+      "version": "1.20.0",
+      "componentType": "webpart",
+      "extensionType": null,
+      "sampleGalerry": "sp-dev-fx-webparts",
+      "sampleType": "samples"
+    },
+    {
       "name": "pnp-sp-dev-spfx-web-parts-react-twitter",
       "title": "Twitter Timeline Web Part",
       "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-twitter",
@@ -10259,6 +10859,29 @@
       "sampleType": "samples"
     },
     {
+      "name": "pnp-sp-dev-spfx-web-parts-react-world-clocks",
+      "title": "World Clocks Web Part",
+      "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-world-clocks",
+      "description": "This sample is extension of the single World time clock sample that was provided in SP Starter Kit.",
+      "image": "https://github.com/pnp/sp-dev-fx-webparts/blob/main/samples/react-world-clocks/assets/ClocksInAction.gif?raw=true",
+      "authors": [
+        {
+          "name": "Jerry Yasir",
+          "pictureUrl": "https://github.com/jerryyasir.png"
+        }
+      ],
+      "tags": [
+        "SharePoint"
+      ],
+      "createDate": "2020-09-26",
+      "updateDate": "2020-09-26",
+      "version": "1.11.0",
+      "componentType": "webpart",
+      "extensionType": null,
+      "sampleGalerry": "sp-dev-fx-webparts",
+      "sampleType": "samples"
+    },
+    {
       "name": "pnp-sp-dev-spfx-web-parts-react-yammer-api",
       "title": "Yammer REST API web part",
       "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-yammer-api",
@@ -10299,6 +10922,29 @@
       "createDate": "2020-03-23",
       "updateDate": "2020-03-23",
       "version": "1.10.0",
+      "componentType": "webpart",
+      "extensionType": null,
+      "sampleGalerry": "sp-dev-fx-webparts",
+      "sampleType": "samples"
+    },
+    {
+      "name": "pnp-sp-dev-spfx-web-parts-react-yet-another-FAQ-webpart",
+      "title": "SPFx FAQ Accordion Web Part",
+      "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-yet-another-FAQ-webpart",
+      "description": "The Yet another FAQ Accordion Web Part is a modern SPFx solution for displaying FAQs in SharePoint Online, featuring a responsive interface with real-time search, grouping, and customizable styling.",
+      "image": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/react-yet-another-FAQ-webpart/assets/preview.png",
+      "authors": [
+        {
+          "name": "Nicolas Kheirallah",
+          "pictureUrl": "https://github.com/NicolasKheirallah.png"
+        }
+      ],
+      "tags": [
+        "SharePoint"
+      ],
+      "createDate": "2025-02-23",
+      "updateDate": "2025-02-23",
+      "version": "1.20.0",
       "componentType": "webpart",
       "extensionType": null,
       "sampleGalerry": "sp-dev-fx-webparts",
@@ -10472,6 +11118,29 @@
       "createDate": "2019-06-11",
       "updateDate": "2019-06-11",
       "version": "1.8.1",
+      "componentType": "webpart",
+      "extensionType": null,
+      "sampleGalerry": "sp-dev-fx-webparts",
+      "sampleType": "samples"
+    },
+    {
+      "name": "pnp-sp-dev-spfx-web-parts-vuejs-todo-single-file-component",
+      "title": "Todo Client Web Part built with Vue.js and Vue's single-file components",
+      "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/vuejs-todo-single-file-component",
+      "description": "Sample Todo web part demonstrating how you can utilize Vue (a progressive framework for building user interfaces) with SharePoint Framework using handy single-file components approach.",
+      "image": "https://github.com/pnp/media/raw/master/parker/pnp/300w/parker.png",
+      "authors": [
+        {
+          "name": "Sergei Sergeev",
+          "pictureUrl": "https://github.com/s-KaiNet.png"
+        }
+      ],
+      "tags": [
+        "SharePoint"
+      ],
+      "createDate": "2020-04-27",
+      "updateDate": "2022-04-04",
+      "version": "1.11.0",
       "componentType": "webpart",
       "extensionType": null,
       "sampleGalerry": "sp-dev-fx-webparts",
