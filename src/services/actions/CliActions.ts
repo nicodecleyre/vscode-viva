@@ -19,7 +19,6 @@ import path = require('path');
 import { ActionTreeItem } from '../../providers/ActionTreeDataProvider';
 import { getExtensionSettings } from '../../utils/getExtensionSettings';
 import * as fs from 'fs';
-import { log } from 'console';
 
 export class CliActions {
 
@@ -1154,7 +1153,7 @@ export class CliActions {
     const owner: string | undefined = await window.showInputBox({
       prompt: 'Enter the email address of the tenant admin (owner)',
       ignoreFocusOut: true,
-      validateInput: (value) => value ? undefined : 'Owner email is required',
+      validateInput: (value) => value ? undefined : EnvironmentInformation.account ? undefined : 'Owner email is required',
     });
     if (!owner) {
       Notifications.error('Owner email is required to create a Tenant App Catalog.');
@@ -1162,7 +1161,7 @@ export class CliActions {
     }
 
     const timeZoneInput = await window.showInputBox({
-      prompt: 'Enter the time zone as an integer',
+      prompt: 'Enter the time zone as an integer (e.g., 4 for UTC+4). Refer to the guidelines: https://msdn.microsoft.com/library/microsoft.sharepoint.spregionalsettings.timezones.aspx',
       ignoreFocusOut: true,
       validateInput: (value) => {
         const parsed = parseInt(value, 10);
@@ -1178,12 +1177,11 @@ export class CliActions {
     const timeZone = parseInt(timeZoneInput, 10);
 
     const confirmation = await window.showQuickPick(['Yes', 'No'], {
-      placeHolder: `Are you sure you want to create a Tenant App Catalog at '${appCatalogUrl}' with owner '${owner}' and timeZone '${timeZone}'?`,
+      placeHolder: `Are you sure you want to create a Tenant App Catalog at '${appCatalogUrl}' with owner '${owner}' and time zone '${timeZone}'?`,
       ignoreFocusOut: true,
     });
 
     if (confirmation !== 'Yes') {
-      Notifications.warning('Operation canceled by the user.');
       return;
     }
 
@@ -1219,30 +1217,40 @@ export class CliActions {
    */
   public static async addSiteAppCatalog() {
     try {
-      const siteUrl = await window.showInputBox({
-        prompt: 'Enter the site URL where you want to create the site app catalog',
+      const relativeUrl = await window.showInputBox({
+        prompt: 'Enter the relative URL of the site where you want to create the site app catalog',
         ignoreFocusOut: true,
-        validateInput: (value) => value ? undefined : 'Site URL is required'
-      });
+        placeHolder: 'e.g., sites/sales or leave blank for root site',
+        validateInput: (input) => {
+          const trimmedInput = input.trim();
+          if (trimmedInput.startsWith('https://')) {
+            return 'Please provide a relative URL, not an absolute URL.';
+          }
+          if (trimmedInput.startsWith('/')) {
+            return 'Please provide a relative URL without a leading slash.';
+          }
+          return undefined;
+        }});
 
-      if (!siteUrl) {
+      if (!relativeUrl) {
         Notifications.warning('No site URL provided. Operation aborted.');
         return;
       }
 
+      const siteUrl = `${EnvironmentInformation.tenantUrl}/${relativeUrl.trim()}`;
+
       const confirmation = await window.showQuickPick(['Yes', 'No'], {
-        placeHolder: `Are you sure you want to create a site app catalog for '${siteUrl}'?`,
+        placeHolder: `Are you sure you want to create a site app catalog for '${relativeUrl}'?`,
         ignoreFocusOut: true,
       });
 
       if (confirmation !== 'Yes') {
-        Notifications.warning('Operation canceled by the user.');
         return;
       }
 
       await window.withProgress({
         location: ProgressLocation.Notification,
-        title: `Creating site app catalog for ${siteUrl}...`,
+        title: `Creating site app catalog for ${siteUrl}...Check [output window](command:${Commands.showOutputChannel}) to follow the progress.`,
         cancellable: false,
       }, async () => {
         const commandOptions: any = { siteUrl };
@@ -1292,8 +1300,15 @@ export class CliActions {
         force: true
       };
 
-      await CliExecuter.execute('spo site appcatalog remove', 'json', commandOptions);
-      Notifications.info(`App '${appCatalogUrl}' has been successfully removed.`);
+      await window.withProgress({
+        location: ProgressLocation.Notification,
+        title: `Removing site app catalog from ${appCatalogUrl}... Check [output window](command:${Commands.showOutputChannel}) to follow the progress.`,
+        cancellable: false,
+      }, async () => {
+        await CliExecuter.execute('spo site appcatalog remove', 'json', commandOptions);
+      });
+
+      Notifications.info(`App catalog '${appCatalogUrl}' has been successfully removed.`);
 
       await commands.executeCommand('spfx-toolkit.refreshAppCatalogTreeView');
     } catch (e: any) {
