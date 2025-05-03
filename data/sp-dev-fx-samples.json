@@ -661,6 +661,10 @@
         {
           "name": "Mike Myers",
           "pictureUrl": "https://github.com/thespooler.png"
+        },
+        {
+          "name": "Sandeep P S",
+          "pictureUrl": "https://github.com/sandeep-fed.png"
         }
       ],
       "tags": [
@@ -669,6 +673,29 @@
       "createDate": "2020-06-18",
       "updateDate": "2024-12-24",
       "version": "1.20.0",
+      "componentType": "extension",
+      "extensionType": "ApplicationCustomizer",
+      "sampleGalerry": "sp-dev-fx-extensions",
+      "sampleType": "samples"
+    },
+    {
+      "name": "pnp-sp-dev-spfx-extensions-react-application-chatbubble-copilot",
+      "title": "Chatbot Integration for SharePoint Online",
+      "url": "https://github.com/pnp/sp-dev-fx-extensions/tree/main/samples/react-application-chatbubble-copilot",
+      "description": "This solution integrates a chatbot within SharePoint Online using a Tenant App Catalog and Azure AD App Registration. It provides a seamless way to enhance user engagement on SharePoint sites by embedding a customizable chatbot interface. You have a per site agent by creating it in a SharePoint list or a global one by adding json to TWE",
+      "image": null,
+      "authors": [
+        {
+          "name": "Nicolas Kheirallah",
+          "pictureUrl": "https://github.com/NicolasKheirallah.png"
+        }
+      ],
+      "tags": [
+        "SharePoint"
+      ],
+      "createDate": "2025-01-08",
+      "updateDate": "2025-01-08",
+      "version": "1.18.0",
       "componentType": "extension",
       "extensionType": "ApplicationCustomizer",
       "sampleGalerry": "sp-dev-fx-extensions",
@@ -834,6 +861,10 @@
         {
           "name": "Brad Schlintz",
           "pictureUrl": "https://github.com/bschlintz.png"
+        },
+        {
+          "name": "Sandeep P S",
+          "pictureUrl": "https://github.com/sandeep-fed.png"
         }
       ],
       "tags": [
@@ -3408,6 +3439,10 @@
         {
           "name": "Abhishek Garg",
           "pictureUrl": "https://avatars.githubusercontent.com/u/5449154?s=400&v=4"
+        },
+        {
+          "name": "Sandeep P S",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/36669540?s=400&u=26832fbf77fdad041d47c05811d45ceea59e7531&v=4"
         }
       ],
       "tags": [
@@ -5157,6 +5192,29 @@
       "sampleType": "samples"
     },
     {
+      "name": "pnp-sp-dev-spfx-web-parts-react-easter-egg-hunt-game",
+      "title": "Easter Egg Hunt Game SPFx Web Part",
+      "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-easter-egg-hunt-game",
+      "description": "A fun interactive Easter Egg Hunt Game built as a SharePoint Framework web part",
+      "image": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/react-easter-egg-hunt-game/assets/huntgame.png",
+      "authors": [
+        {
+          "name": "Valeras Narbutas",
+          "pictureUrl": "https://github.com/ValerasNarbutas.png"
+        }
+      ],
+      "tags": [
+        "SharePoint"
+      ],
+      "createDate": "2025-04-15",
+      "updateDate": "2025-04-15",
+      "version": "1.20.0",
+      "componentType": "webpart",
+      "extensionType": null,
+      "sampleGalerry": "sp-dev-fx-webparts",
+      "sampleType": "samples"
+    },
+    {
       "name": "pnp-sp-dev-spfx-web-parts-react-edit-applicationcustomizer",
       "title": "Edit Application Customizers Web Part",
       "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-edit-applicationcustomizer",
@@ -5224,6 +5282,33 @@
       "createDate": "2024-09-01",
       "updateDate": "2024-09-01",
       "version": "1.19.0",
+      "componentType": "webpart",
+      "extensionType": null,
+      "sampleGalerry": "sp-dev-fx-webparts",
+      "sampleType": "samples"
+    },
+    {
+      "name": "pnp-sp-dev-spfx-web-parts-react-engage-hub",
+      "title": "Engage Hub",
+      "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-engage-hub",
+      "description": "Built purely with off-the-shelf SharePoint capabilities, Engage Hub is a contemporary SPFx-based substitute for Viva Engage. In addition to providing essential social capabilities such as liking and unliking posts, threaded comments, and comment creation, it manages post data using SharePoint Lists and Document Libraries.",
+      "image": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/react-engage-hub/assets/engage_hub1.png",
+      "authors": [
+        {
+          "name": "Sandeep P S",
+          "pictureUrl": "https://github.com/Sandeep-FED.png"
+        },
+        {
+          "name": "AOAI SDK",
+          "pictureUrl": "https://github.com/Azure/azure-sdk-for-js/tree/main/sdk/openai/openai.png"
+        }
+      ],
+      "tags": [
+        "SharePoint"
+      ],
+      "createDate": "2025-04-27",
+      "updateDate": "2025-04-27",
+      "version": "1.20.0",
       "componentType": "webpart",
       "extensionType": null,
       "sampleGalerry": "sp-dev-fx-webparts",
@@ -6400,13 +6485,21 @@
         {
           "name": "Nicolas Kheirallah",
           "pictureUrl": "https://github.com/NicolasKheirallah.png"
+        },
+        {
+          "name": "Nirav Raval",
+          "pictureUrl": "https://github.com/nrvrvl.png"
+        },
+        {
+          "name": "Microsoft Graph JavaScript SDK",
+          "pictureUrl": "https://github.com/microsoftgraph/msgraph-sdk-javascript.png"
         }
       ],
       "tags": [
         "SharePoint"
       ],
       "createDate": "2025-02-28",
-      "updateDate": "2025-02-28",
+      "updateDate": "2025-04-21",
       "version": "1.20.0",
       "componentType": "webpart",
       "extensionType": null,
@@ -6488,10 +6581,10 @@
     },
     {
       "name": "pnp-sp-dev-spfx-web-parts-react-holidays-calendar",
-      "title": "Holiday Calendar Web Part",
+      "title": "Holiday calendar",
       "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-holidays-calendar",
-      "description": "Holiday calendar solution contains SPFx web part and Adaptive card extension for Viva connections.",
-      "image": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/react-holidays-calendar/assets/209691198-4d0cbc31-f0d4-49c8-a1b5-ae8701406221.png",
+      "description": "Holiday calendar solution contains SPFx web part and Adaptive card extension for Viva connections. SPFx web part provides below functionalities",
+      "image": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/react-holidays-calendar/assets/209691123-03ac3c5d-cc8e-490e-8cb2-837539914db8.png",
       "authors": [
         {
           "name": "Harminder Singh",
@@ -6501,9 +6594,9 @@
       "tags": [
         "SharePoint"
       ],
-      "createDate": "2023-01-09",
-      "updateDate": "2023-11-30",
-      "version": "1.20.0",
+      "createDate": "2021-01-29",
+      "updateDate": "2025-04-26",
+      "version": "1.21.0",
       "componentType": "adaptiveCardExtension",
       "extensionType": null,
       "sampleGalerry": "sp-dev-fx-webparts",
@@ -7033,7 +7126,7 @@
       "title": "M365 Planner Timeline Web Part",
       "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-m365-planner-timeline",
       "description": "The purpose of this web part sample is to render M365 Group Plan tasks in a timeline ordered by the task due date with tags for years and months in a vertical stack. There are filter options to filter out completed tasks and tender tasks by a plan bucket. A task's detail can be viewed by clicking the (i) icon below the \"Due Date\" popping up a callout dialog with task details. It Should be noted that a M365 Group Planner can have 0 to 200 plans assigned to M365 Group. The web part needs to be configured in the web part's property pane you must select the plan to be rendered, along with options for the plan bucket and completed task filter. These setting will be used when the web part renders on the page. The configuration of multiple web parts on hte page for different plans and buckets is supported.",
-      "image": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/react-m365-planner-timeline/assets/webParts.png",
+      "image": "https://raw.githubusercontent.com/pnp/sp-dev-fx-webparts/refs/heads/main/samples/react-M365-Planner-Timeline/assets/webParts.png",
       "authors": [
         {
           "name": "Bill Brockbank",
@@ -7601,8 +7694,8 @@
         "SharePoint"
       ],
       "createDate": "2020-07-19",
-      "updateDate": "2020-07-19",
-      "version": "1.10.0",
+      "updateDate": "2025-04-25",
+      "version": "1.20.0",
       "componentType": "webpart",
       "extensionType": null,
       "sampleGalerry": "sp-dev-fx-webparts",
@@ -7742,9 +7835,9 @@
       "tags": [
         "SharePoint"
       ],
-      "createDate": "2023-02-03",
-      "updateDate": "2024-10-11",
-      "version": "1.20.0",
+      "createDate": "2021-01-24",
+      "updateDate": "2025-04-27",
+      "version": "1.21.0",
       "componentType": "adaptiveCardExtension",
       "extensionType": null,
       "sampleGalerry": "sp-dev-fx-webparts",
@@ -9628,6 +9721,29 @@
       ],
       "createDate": "2025-01-27",
       "updateDate": "2025-01-27",
+      "version": "1.20.0",
+      "componentType": "webpart",
+      "extensionType": null,
+      "sampleGalerry": "sp-dev-fx-webparts",
+      "sampleType": "samples"
+    },
+    {
+      "name": "pnp-sp-dev-spfx-web-parts-react-sp-org-chart",
+      "title": "Building Org Chart using a SharePoint list",
+      "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-sp-org-chart",
+      "description": "Displays your organization's structure based on a custom list, starting from the top boss down to everyone else.",
+      "image": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/react-sp-org-chart/assets/List.png",
+      "authors": [
+        {
+          "name": "Sudeep Ghatak",
+          "pictureUrl": "https://github.com/sudeepghatak.png"
+        }
+      ],
+      "tags": [
+        "SharePoint"
+      ],
+      "createDate": "2025-04-20",
+      "updateDate": "2025-04-20",
       "version": "1.20.0",
       "componentType": "webpart",
       "extensionType": null,
